@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: none;
+}
+img{
+    vertical-align:middle;
+}
+
+.scrl_btn{
+    height:40px;
+    width: 40px;
+    color: #fff;
+    background:red;
+    text-align: center;
+    line-height: 40px;
+    cursor:pointer;
+    border-radius:0 20px 0 20px;
+    -webkit-border-radius:0 20px 0 20px;
+    -moz-border-radius:0 20px 0 20px;
+    -ms-border-radius:0 20px 0 20px;
+    -o-border-radius:0 20px 0 20px;
+    position: fixed;
+    right:30px;
+    bottom: 20px;
+    display: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.banner_items{
+    height:600px;
+}
+.prev_arrow,
+.next_arrow{
+    height:40px;
+    width:40px;
+    background:red;
+    color:#fff;
+    cursor:pointer;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0 20px 0 20px;
+    -webkit-border-radius: 0 20px 0 20px;
+    -moz-border-radius: 0 20px 0 20px;
+    -ms-border-radius: 0 20px 0 20px;
+    -o-border-radius: 0 20px 0 20px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 2;
+}
+.prev_arrow{
+    left: 30px;
+}
+.next_arrow{
+    right: 30px;
+}
+.slide_kora .slick-dots li button{
+    font-size: 0px;
+    height:20px;
+    width:20px;
+    background: red;
+    border:0;
+    cursor:pointer;
+    border-radius:0 10px 0 10px;
+    -webkit-border-radius:0 10px 0 10px;
+    -moz-border-radius:0 10px 0 10px;
+    -ms-border-radius:0 10px 0 10px;
+    -o-border-radius:0 10px 0 10px;
+    margin:10px;
+}
+.slide_kora .slick-dots{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom:10px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.slide_kora .slick-dots li.slick-active button{
+    background:yellow;
+    width:25px;
+    height: 25px;;
+}
